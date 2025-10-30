@@ -1,0 +1,115 @@
+:root {
+  --primary: hsl(0, 0%, 100%);
+  --secondary-1: hsl(47, 88%, 63%);
+  --secondary-2: hsl(0, 0%, 42%);
+  --secondary-3: hsl(0, 0.00%, 7.10%);
+  --secondary-4: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+ font-family: "Figtree", sans-serif;
+ background: var(--secondary-1);
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  height: 550px;
+  background: var(--primary);
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 1px black;
+}
+
+.avatar {
+  display: flex;
+  /* padding-top: 50px; */
+  /* padding-right: 210px;
+  padding-top: 50px; */
+}
+
+.kit {
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+  color: var(--secondary-2);
+}
+
+.text-section {
+  padding-top: -50px;
+}
+
+
+.article {
+  /* height: 200px; */
+  /* min-height: 240px; */
+  margin-top: -25px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.text {
+  padding: 8px;
+  /* padding-top: 40px; */
+}
+
+.learning {
+  padding-top: 5px;
+  padding-left: 12px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  width: 90px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: var(--secondary-1)
+}
+
+.publish {
+  color: var(--secondary-2);
+}
+
+.foundation {
+  margin-bottom: 25px;
+  color: var(--secondary-3);
+  font-weight: 800;
+  font-size: 20px;
+  padding-top: 18px;
+}
+
+.paragraph {
+  color: var();
+}
+
+.hooper {
+  justify-items: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: var(--secondary-3);
+  font-weight: 800;
+}
+
+.text-2 > p {
+  padding-top: 20px;
+}
+
+.attribution, a {
+  color: var(--secondary-4);
+}
