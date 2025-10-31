@@ -13,7 +13,7 @@ My participation in this project gave me an opportunity to get my hands dirty, a
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/fadekocodeit/blog-preview-card.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://fadekocodeit.github.io/blog-preview-card/)
 
 ## My process
 
